@@ -1,3 +1,2 @@
-# Mobile Modal Component Module
-
-A React Component that slide up a configurable modal in mobile apps.
+# About React Component
+A component to clear cache and allow deliver updates easily.

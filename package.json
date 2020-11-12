@@ -12,7 +12,7 @@
     "start": "rimraf demo/output && parcel demo/index.html -d demo/output --open",
     "build": "rimraf dist && tsc"
   },
-  "repository": "https://github.com/redwallsolutions/about",
+  "repository": "https://github.com/redwallsolutions/about-component-module",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
@@ -30,11 +30,12 @@
     "react-dom": "^16.11.0",
     "rimraf": "^3.0.0",
     "styled-components": "4.4.1",
-    "typescript": "^3.6.4"
+    "typescript": "3.8.3"
   },
   "peerDependencies": {
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "styled-components": "4.4.1"
   },
   "dependencies": {
     "@redwallsolutions/button-component-module": "^1.10.1",
