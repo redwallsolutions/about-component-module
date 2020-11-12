@@ -1,0 +1,45 @@
+{
+  "name": "@redwallsolutions/about",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"No tests specified.\"",
+    "start": "rimraf demo/output && parcel demo/index.html -d demo/output --open",
+    "build": "rimraf dist && tsc"
+  },
+  "repository": "https://github.com/redwallsolutions/about",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "author": "Andrew Ribeiro",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@types/color": "^3.0.0",
+    "@types/react-dom": "^16.9.3",
+    "@types/styled-components": "^4.1.20",
+    "babel-preset-react-app": "^9.0.2",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "rimraf": "^3.0.0",
+    "styled-components": "4.4.1",
+    "typescript": "^3.6.4"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "dependencies": {
+    "@redwallsolutions/button-component-module": "^1.10.1",
+    "@redwallsolutions/common-interfaces-ts": "^1.0.2",
+    "@redwallsolutions/m-modal-component-module": "^1.1.4",
+    "@redwallsolutions/theming-component-module": "^2.0.2"
+  }
+}
